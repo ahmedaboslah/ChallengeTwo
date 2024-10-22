@@ -10,6 +10,7 @@ class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      contentPadding: EdgeInsets.zero,
         title:  Text(
           'Hi Ahmed!',
           style: TextStyle(fontSize: 13, color: AppColors().kThirdColor.withOpacity(0.8)),
